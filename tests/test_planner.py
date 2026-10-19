@@ -21,7 +21,6 @@ def test_is_negative_when_due_overdue():
     due = date(2026, 10, 18)
     assert days_left(due, today) == -1
 
-
 # TODO 2: is_urgent is True when the task is due tomorrow.
 def test_is_urgent_when_due_tomorrow():
     today = date(2026, 10, 19)
